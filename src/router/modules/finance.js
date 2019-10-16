@@ -4,6 +4,10 @@ var finance = [
 	{
 		path: '/',
 		component: Finance
+	},
+	{
+		path: '/finance',
+		component: Finance
 	}
 ];
 

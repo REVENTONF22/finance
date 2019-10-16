@@ -7,12 +7,14 @@ Vue.use(Vuex);
 import finance from './modules/finance';
 
 var store = new Vuex.Store({
-	state: {},
+	state: {
+		title: 'VUEX存储实例'
+	},
 	mutations: {},
 	actions: {},
 	getters: {},
 	modules: {
-		...finance
+		finance
 	}
 });
 
